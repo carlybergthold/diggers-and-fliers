@@ -4,10 +4,6 @@ namespace Animals
 {
     public class WalkersContainer
     {
-        public List<IWalking> walkers { get; set; }
-        public WalkersContainer()
-        {
-            this.walkers = new List<IWalking>();
-        }
+        public List<IWalking> walkers = new List<IWalking>();
     }
 }

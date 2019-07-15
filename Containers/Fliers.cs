@@ -4,10 +4,7 @@ namespace Animals
 {
     public class FlyerContainer
     {
-        public List<IFlying> Fliers { get; set; }
-        public FlyerContainer()
-        {
-            this.Fliers = new List<IFlying>();
-        }
+        public List<IFlying> Fliers = new List<IFlying>();
+
     }
 }
